@@ -1,0 +1,15 @@
+{
+  "version": "0.3.45",
+  "notes": "Setup installs and updates itself; portable runs from any folder without installing. Installed copies offer this update from Settings → General once the release is published.",
+  "pub_date": "2026-10-13T10:31:18.251Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkM4NGZEKzJHM2lKa28vc2d4WHpQT1E4UEJCME51aVlRbEZCQnQ0a2J1eTFZQ0w1anV2alVzczNoakZNSjFsZmRGbEdxc0xEdTlXZUs3amJpZU1RWmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODg3NDcwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDUKV0U3Y01oMG1RZ09RQm1nUXhybDErT3pLVlRKRklNclN0RHFDdHhkZjQyMlpCaTl5ZTVXT2I1THFlY1MwelZ6TjhTTE9uQWE2Z08rVlRyZmZyU3dwQkE9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.45/Battery.Hub_0.3.45_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkM4NGZEKzJHM2lKa28vc2d4WHpQT1E4UEJCME51aVlRbEZCQnQ0a2J1eTFZQ0w1anV2alVzczNoakZNSjFsZmRGbEdxc0xEdTlXZUs3amJpZU1RWmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODg3NDcwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDUKV0U3Y01oMG1RZ09RQm1nUXhybDErT3pLVlRKRklNclN0RHFDdHhkZjQyMlpCaTl5ZTVXT2I1THFlY1MwelZ6TjhTTE9uQWE2Z08rVlRyZmZyU3dwQkE9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.45/Battery.Hub_0.3.45_x64-setup.exe"
+    }
+  }
+}

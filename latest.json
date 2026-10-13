@@ -1,15 +1,15 @@
 {
-  "version": "0.3.46",
+  "version": "0.3.47",
   "notes": "Setup installs and updates itself; portable runs from any folder without installing. Installed copies offer this update from Settings → General once the release is published.",
-  "pub_date": "2026-10-13T13:20:14.892Z",
+  "pub_date": "2026-10-13T15:44:27.502Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4Wk4vYmJKcmxRTjBqNDRSZ0lOa3VnMGY5ZE9VMVlvbXozSWhXbHFYWUJwUjIraUU3L2RQR0tqbWlCKzNzMGJrZkxSVGJ1a292M3ZYdmJpb1ZZYzBXdXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODk3NjA4CWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDYKZWNtVnZNWUkyZjhhMFdHak1iTXdxZFY3b0pHQlYweFRUelJyaDM2T0M4eEZ6TmJaTkZVUkxySjl6RDQ2bG9PMlA0YzVhT2tMY3o0djVwQ0dha1p1REE9PQo=",
-      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.46/Battery.Hub_0.3.46_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkxlNnYzSC9lWVBEb2RiVmxmOVBubmNaaFJITlpQL3NuMnRoN2RDdWRWaHpjUVROUHJKa01vUjdxaHg5ZHNSZGxKeVRzRnpnYmdxbkJOaG9DUElOS0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA2MjUwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDcKNXo3dVdKRUNoVStRQXM4R21tWkQvMDNycHVJZlAwK244anNsS2owOHFnVUtZRU1xUVBXZGpNanlrY3lscXpKV1dFVndCRFd6Q1JNcnIreVQvcG01Qnc9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.47/Battery.Hub_0.3.47_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4Wk4vYmJKcmxRTjBqNDRSZ0lOa3VnMGY5ZE9VMVlvbXozSWhXbHFYWUJwUjIraUU3L2RQR0tqbWlCKzNzMGJrZkxSVGJ1a292M3ZYdmJpb1ZZYzBXdXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODk3NjA4CWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDYKZWNtVnZNWUkyZjhhMFdHak1iTXdxZFY3b0pHQlYweFRUelJyaDM2T0M4eEZ6TmJaTkZVUkxySjl6RDQ2bG9PMlA0YzVhT2tMY3o0djVwQ0dha1p1REE9PQo=",
-      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.46/Battery.Hub_0.3.46_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkxlNnYzSC9lWVBEb2RiVmxmOVBubmNaaFJITlpQL3NuMnRoN2RDdWRWaHpjUVROUHJKa01vUjdxaHg5ZHNSZGxKeVRzRnpnYmdxbkJOaG9DUElOS0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA2MjUwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDcKNXo3dVdKRUNoVStRQXM4R21tWkQvMDNycHVJZlAwK244anNsS2owOHFnVUtZRU1xUVBXZGpNanlrY3lscXpKV1dFVndCRFd6Q1JNcnIreVQvcG01Qnc9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.47/Battery.Hub_0.3.47_x64-setup.exe"
     }
   }
 }

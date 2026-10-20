@@ -1,15 +1,15 @@
 {
-  "version": "0.3.47",
-  "notes": "Setup installs and updates itself; portable runs from any folder without installing. Installed copies offer this update from Settings → General once the release is published.",
-  "pub_date": "2026-10-13T15:44:27.502Z",
+  "version": "0.3.48",
+  "notes": "Setup installs and updates itself; portable runs from any folder without installing.\n\nChanges since v0.3.47:\n- Poll speed part 2: Razer, Aula and Ajazz read outside the HID lock; 0.3.48\n- Poll speed: device I/O no longer holds the shared HID lock (part 1)\n- Dead code: two unused strings, five exports used only in their own file\n- Security: rustls 0.23.46, no zip extractor, pinned actions, read-only tokens\n- Translations for 0.3.48: trust, overlay, smart plug, health, charge phase, game drain, HUD\n- Release notes from the commits since the previous tag\n- Always-on-top mini HUD with adjustable opacity\n- Per-game drain: learned while each game runs, used before its matches\n- Charge phase: pace, time to full, and fast vs trickle while charging\n- Battery health: when capacity is expected to fall below 80%\n- Smart plug webhook: a JSON POST at 80% or a full charge\n- Stream overlay: GET /overlay, a widget for an OBS browser source\n- Trust badge: proven, unproven, standard or taught, on every reading\n- Logitech G735 headset: battery from HID++ UnifiedBattery",
+  "pub_date": "2026-10-20T21:23:12.811Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkxlNnYzSC9lWVBEb2RiVmxmOVBubmNaaFJITlpQL3NuMnRoN2RDdWRWaHpjUVROUHJKa01vUjdxaHg5ZHNSZGxKeVRzRnpnYmdxbkJOaG9DUElOS0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA2MjUwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDcKNXo3dVdKRUNoVStRQXM4R21tWkQvMDNycHVJZlAwK244anNsS2owOHFnVUtZRU1xUVBXZGpNanlrY3lscXpKV1dFVndCRFd6Q1JNcnIreVQvcG01Qnc9PQo=",
-      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.47/Battery.Hub_0.3.47_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WlBuSnBNTElnT2FNUmkwNFR4MmJ4Z3poT2F6NHNabVd5c2xTZGZmVUZhOHN1Z3dTa1BMKzdmVzF4dzJjWkVmcUNCNnNNejBHLzI1aWsvYS9DdUtIVlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTMxMzg1CWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDgKYnA3dzErYU9ZUlBxcmV6c1YzbEFLQXFFOXFSMXMra25XNTJtNkpaZmdEWWM5VDN0MEhVamZ6Q0h2N2FPcWlDOEMydWVGcUZ6YitkSyt0T1Q2VDBaRGc9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.48/Battery.Hub_0.3.48_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WkxlNnYzSC9lWVBEb2RiVmxmOVBubmNaaFJITlpQL3NuMnRoN2RDdWRWaHpjUVROUHJKa01vUjdxaHg5ZHNSZGxKeVRzRnpnYmdxbkJOaG9DUElOS0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA2MjUwCWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDcKNXo3dVdKRUNoVStRQXM4R21tWkQvMDNycHVJZlAwK244anNsS2owOHFnVUtZRU1xUVBXZGpNanlrY3lscXpKV1dFVndCRFd6Q1JNcnIreVQvcG01Qnc9PQo=",
-      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.47/Battery.Hub_0.3.47_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ2R5OXhzYXE4WlBuSnBNTElnT2FNUmkwNFR4MmJ4Z3poT2F6NHNabVd5c2xTZGZmVUZhOHN1Z3dTa1BMKzdmVzF4dzJjWkVmcUNCNnNNejBHLzI1aWsvYS9DdUtIVlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTMxMzg1CWZpbGU6QmF0dGVyeSBIdWJfMC4zLjQ4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDgKYnA3dzErYU9ZUlBxcmV6c1YzbEFLQXFFOXFSMXMra25XNTJtNkpaZmdEWWM5VDN0MEhVamZ6Q0h2N2FPcWlDOEMydWVGcUZ6YitkSyt0T1Q2VDBaRGc9PQo=",
+      "url": "https://github.com/Axthrowa/battery-hub-releases/releases/download/v0.3.48/Battery.Hub_0.3.48_x64-setup.exe"
     }
   }
 }
